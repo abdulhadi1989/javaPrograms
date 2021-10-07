@@ -6,8 +6,7 @@ public class factorial {
 
 	public static void main(String args[]) {
 		
-		System.out.println("Test print");
-		
+		//Get the number from the user
 		Scanner input = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int num = input.nextInt();
@@ -17,6 +16,7 @@ public class factorial {
 			fact=fact*i;
 		}
 		
+	   //Print the number and also the factorial result in console output
 		System.out.println("The factorial of "+num+" is "+fact);
 		
 		
