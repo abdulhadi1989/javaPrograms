@@ -1,5 +1,8 @@
 package com.oops;
 
+
+//Example program for encapsulation
+
 public class EmployeeTest {
 
 	public static void main(String[] args) {
